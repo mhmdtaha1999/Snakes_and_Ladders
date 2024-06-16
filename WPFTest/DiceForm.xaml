@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFTest.DiceForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest"
+        mc:Ignorable="d"
+        Title="Dice" Height="300" Width="256.697" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0" AllowsTransparency="True">
+    <Grid Background="#FF404040">
+        <TextBlock x:Name="lblDice" HorizontalAlignment="Center" Margin="0,80,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" RenderTransformOrigin="0.76,3.645" FontFamily="Gill_Sans" FontSize="72" TextDecorations="{x:Null}" Foreground="#FFEEEEEE"/>
+        <TextBlock x:Name="lblMsg" Margin="0,25,0,0" TextWrapping="Wrap" Text="Blue Player's Turn" VerticalAlignment="Top" RenderTransformOrigin="0.76,3.645" HorizontalAlignment="Center" FontFamily="Gill Sans MT" FontSize="22" Foreground="#FFEEEEEE"/>
+        <Button x:Name="btnRoll" Content="ROLL" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Width="212" Height="71" Background="#FF5A5A5A" FontFamily="Gill_Sans" FontSize="36" BorderThickness="2" Foreground="#FF69F0AE" BorderBrush="#FF69F0AE" Click="btnRoll_Click" />
+    </Grid>
+</Window>
